@@ -6,13 +6,11 @@ const insert = (content) => {
 
   const element = elements[0];
 
-  // Grab the first p tag so we can replace it with our injection
   const pToRemove = element.childNodes[0];
   pToRemove.remove();
 
   const splitContent = content.split("\n");
 
-  // Wrap in p tags
   splitContent.forEach((content) => {
     const p = document.createElement("p");
 
@@ -23,7 +21,6 @@ const insert = (content) => {
       p.textContent = content;
     }
 
-    // Insert into HTML one at a time
     element.appendChild(p);
   });
 
