@@ -1,7 +1,7 @@
 {
   "name": "X-Writer",
-  "description": "Highlight your blog post title, we'll generate the rest",
-  "version": "1.0",
+  "description": "Highlight some text and generate content from it.",
+  "version": "2.0",
   "manifest_version": 3,
   "icons": {
     "48": "assets/48.png",
@@ -11,7 +11,7 @@
   },
   "action": {
     "default_popup": "index.html",
-    "default_title": "Generate blog post"
+    "default_title": "Generate Content"
   },
   "background": {
     "service_worker": "scripts/contextMenuServiceWorker.js"
