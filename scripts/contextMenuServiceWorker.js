@@ -54,7 +54,7 @@ const generateCompletionAction = async (info) => {
     const { selectionText } = info;
     const basePromptPrefix = `
       Write me a detailed table of contents for a blog post with the title below.
-      
+
       Title:
       `;
 
@@ -83,7 +83,7 @@ const generateCompletionAction = async (info) => {
 
 chrome.contextMenus.create({
   id: "context-run",
-  title: "Generate blog post",
+  title: "Generate Content",
   contexts: ["selection"],
 });
 
