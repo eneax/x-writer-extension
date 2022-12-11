@@ -13,7 +13,7 @@ X-Writer Extension is a Chrome extension that takes some text as input and gener
 7. The extension should now be installed.
 8. Click on the extension icon to open the popup and add your [OpenAI API key](https://beta.openai.com/account/api-keys).
 
-## 📝 Usage
+## ✏️ Usage
 
 1. Select some text on a webpage.
 2. Right click and select "Generate Content" from the context menu.
