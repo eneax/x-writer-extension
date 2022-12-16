@@ -1,5 +1,40 @@
 body {
-  min-width: 250px;
+  min-width: 300px;
+  background-color: #000;
+  color: #fff4db;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  padding: 1rem;
+}
+
+::selection {
+  background-color: #fff4db;
+  color: #000;
+}
+
+button {
+  background-color: rgba(252, 167, 28, 1);
+  color: #000;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition-property: background-color, color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+button:hover {
+  background-color: rgba(252, 167, 28, 0.95);
+}
+
+input#key_input {
+  background-color: rgba(34, 34, 34, 1);
+  color: #fff4db;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(17, 17, 17, 1);
+  border-radius: 1rem;
 }
 
 #key_entered {
