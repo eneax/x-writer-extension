@@ -2,6 +2,11 @@
 
 X-Writer Extension is a Chrome extension that takes some text as input and generates a full post or article for you.
 
+## ⚠️ Disclaimer
+
+This project is intended for personal and educational experimentation with text generation technology.
+This project was created following the "GPT3 Writer" tutorial from [buildspace](https://github.com/buildspace/buildspace-projects).
+
 ## 📦 Installation
 
 1. Download this repository as a zip file.
